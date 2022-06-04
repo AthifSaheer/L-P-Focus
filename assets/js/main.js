@@ -262,35 +262,3 @@
   });
 
 })()
-
-var data = ["hello", "ahai"]
-
-// var state = 1
-// setTimeout(() => {
-//   if(state == 1){
-//     document.getElementById("mini-prblm-text").innerHTML = "one"
-//     state = 2
-//   } else if(state == 2){
-//     document.getElementById("mini-prblm-text").innerHTML = "two"
-//     state = 3
-//   } else if(state == 3){
-//     document.getElementById("mini-prblm-text").innerHTML = "three"
-//     state = 1
-//   }
-// }, 2000);
-
-state = "off";
-	function blinkText() {
-		if (state == "on") {
-			state = "off";
-      problemText.classList.add("slide-left")
-			// document.getElementById("mini-prblm-text").style.visibility = "visible";
-			setTimeout(blinkText, 1000);
-		} else {
-			state = "on";
-      problemText.classList.add("slide-left")
-			// document.getElementById("mini-prblm-text").style.visibility = "hidden";
-			setTimeout(blinkText, 1000);
-		}
-	}
-// blinkText();
