@@ -290,6 +290,16 @@ input::placeholder {
   font-size: 30px;
 }
 
+.down-arrow-icon-top-align {
+  margin-top: 150px;
+}
+@media screen and (max-width: 768px) {
+  .down-arrow-icon-top-align {
+    margin-top: 50px;
+  }
+}
+
+
 /* Animation */
 .slide-left {
   animation: 3s slide-left;
